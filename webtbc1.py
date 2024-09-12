@@ -90,7 +90,7 @@ st.markdown(
 )
 
 # Add the Logo
-st.markdown("<div style='text-align: center;'><img src='logo.png' width='150' /></div>", unsafe_allow_html=True)  # Add the path to your logo image here
+st.image("logo.png", width=150, use_column_width='auto', caption='', output_format='auto', class_='logo-center')  # Add the path to your logo image here
 
 # Header
 st.markdown("<h1 class='main-title'>The Bite Club (TBC)</h1>", unsafe_allow_html=True)
