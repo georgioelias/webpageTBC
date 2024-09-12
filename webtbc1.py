@@ -90,7 +90,7 @@ st.markdown(
 )
 
 # Add the Logo
-st.markdown("<div style='text-align: center;'><img src='https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png' width='150' /></div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center;'><img src='https://raw.githubusercontent.com/georgioelias/webpageTBC/master/logo.png' width='150' /></div>", unsafe_allow_html=True)
 
 # Header
 st.markdown("<h1 class='main-title'>The Bite Club (TBC)</h1>", unsafe_allow_html=True)
