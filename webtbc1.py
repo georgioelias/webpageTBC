@@ -25,23 +25,23 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     body {
         font-family: 'Roboto', sans-serif;
-        background-color: #f8f9fa;
+        background-color: #ffffff;
     }
     .main-title {
-        color: #FFD700;
+        color: #f7c377;
         font-family: 'Roboto', sans-serif;
         font-size: 36px;
         text-align: center;
         margin-top: 20px;
     }
     .sub-title {
-        color: #FFD700;
+        color: #f7c377;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         margin-bottom: 20px;
     }
     .description {
-        color: #FFD700;
+        color: #f7c377;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 16px;
@@ -58,7 +58,7 @@ st.markdown(
         font-size: 14px;
     }
     .footer {
-        color: #FFD700;
+        color: #f7c377;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 18px;
