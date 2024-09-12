@@ -14,9 +14,9 @@ client = gspread.authorize(creds)
 # Open the Google Sheet
 sheet = client.open("TBC Ideas").sheet1  # Ensure this is the right spreadsheet name
 
-# Save user info to Google Sheets
-def save_user_info(name, email, favorite_food):
-    sheet.append_row([name, email, favorite_food])
+# Save user info and answers to Google Sheets
+def save_user_info(name, email, instagram_handle, favorite_food, q1, q2, q3, q4, q5):
+    sheet.append_row([name, email, instagram_handle, favorite_food, q1, q2, q3, q4, q5])
 
 # Page Title and Styling
 st.markdown(
@@ -66,19 +66,27 @@ st.write("[Follow @georgioelias](https://instagram.com/georgioelias)")
 st.write("[Follow @jp_nassif](https://instagram.com/jp_nassif)")
 
 # User Information Form
-st.markdown("<h3 class='sub-title'>Tell us more about you!</h3>", unsafe_allow_html=True)
+st.markdown("<h3 class='sub-title'>Join The Bite Club</h3>", unsafe_allow_html=True)
 
 with st.form(key='user_info_form'):
-    name = st.text_input("Name", help="Enter your name")
-    email = st.text_input("Email", help="Enter your email")
-    favorite_food = st.text_input("Favorite Food", help="What's your favorite dish?")
+    name = st.text_input("Full Name")
+    email = st.text_input("Email Address")
+    instagram_handle = st.text_input("Instagram Handle")
+    favorite_food = st.text_input("Favorite Food")
+    
+    st.markdown("### Club Entry Questions")
+    q1 = st.text_input("Why are you worthy of entering 'thebiteclub'?")
+    q2 = st.text_input("What’s the most ridiculous food combination that you secretly love?")
+    q3 = st.text_input("If 'thebiteclub' had a mascot, what would it be and why?")
+    q4 = st.text_input("What secret food talent makes you stand out from the rest?")
+    q5 = st.text_input("Which food item best represents your personality, and how would it make the club better?")
     
     submit_button = st.form_submit_button(label='Submit')
-    
+
     if submit_button:
-        if name and email and favorite_food:
-            save_user_info(name, email, favorite_food)
-            st.success(f"Thanks for sharing, {name}! Your info has been saved.")
+        if name and email and instagram_handle and favorite_food and q1 and q2 and q3 and q4 and q5:
+            save_user_info(name, email, instagram_handle, favorite_food, q1, q2, q3, q4, q5)
+            st.success(f"Thanks for joining, {name}! Your info has been saved.")
         else:
             st.error("Please fill in all fields.")
 
