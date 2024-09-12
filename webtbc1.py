@@ -41,7 +41,7 @@ st.markdown(
         margin-bottom: 20px;
     }
     .description {
-        color: #f7c377;
+        color: #000000;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 16px;
