@@ -25,9 +25,10 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     body {
         font-family: 'Roboto', sans-serif;
+        background-color: #f8f9fa;
     }
     .main-title {
-        color: #333333;
+        color: #007BFF;
         font-family: 'Roboto', sans-serif;
         font-size: 36px;
         text-align: center;
@@ -40,11 +41,14 @@ st.markdown(
         margin-bottom: 20px;
     }
     .description {
-        color: #555555;
+        color: #ffffff;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 16px;
         margin-bottom: 20px;
+        background-color: #007BFF;
+        padding: 10px;
+        border-radius: 5px;
     }
     .form-input {
         margin: 10px 0;
@@ -54,7 +58,7 @@ st.markdown(
         font-size: 14px;
     }
     .footer {
-        color: #333333;
+        color: #007BFF;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 18px;
@@ -63,6 +67,11 @@ st.markdown(
     .icon-small {
         width: 20px;
         height: 20px;
+    }
+    .logo-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     @media only screen and (max-width: 600px) {
         .main-title {
@@ -80,7 +89,7 @@ st.markdown(
 )
 
 # Add the Logo
-st.image("logo.png", width=150)  # Add the path to your logo image here
+st.image("logo.png", width=150, use_column_width='auto', caption='', output_format='auto', class_='logo-center')  # Add the path to your logo image here
 
 # Header
 st.markdown("<h1 class='main-title'>The Bite Club (TBC)</h1>", unsafe_allow_html=True)
@@ -137,7 +146,7 @@ st.markdown(
     """
     <style>
     .footer {
-        color: #333333;
+        color: #007BFF;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 18px;
