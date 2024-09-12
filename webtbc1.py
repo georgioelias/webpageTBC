@@ -28,20 +28,20 @@ st.markdown(
         background-color: #f8f9fa;
     }
     .main-title {
-        color: #007BFF;
+        color: #FFD700;
         font-family: 'Roboto', sans-serif;
         font-size: 36px;
         text-align: center;
         margin-top: 20px;
     }
     .sub-title {
-        color: #007BFF;
+        color: #FFD700;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         margin-bottom: 20px;
     }
     .description {
-        color: #ffffff;
+        color: #FFD700;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 16px;
@@ -58,7 +58,7 @@ st.markdown(
         font-size: 14px;
     }
     .footer {
-        color: #007BFF;
+        color: #FFD700;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 18px;
