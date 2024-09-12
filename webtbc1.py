@@ -46,7 +46,7 @@ st.markdown(
         text-align: center;
         font-size: 16px;
         margin-bottom: 20px;
-        background-color: #007BFF;
+        background-color: #ffffff;
         padding: 10px;
         border-radius: 5px;
     }
