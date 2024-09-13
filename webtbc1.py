@@ -94,11 +94,11 @@ st.markdown("<div style='text-align: center;'><img src='https://raw.githubuserco
 
 # Header
 st.markdown("<h1 class='main-title'>The Bite Club (TBC)</h1>", unsafe_allow_html=True)
-st.markdown("<h2 class='sub-title'>Exclusive Food Content by @georgioelias and @jp_nassif</h2>", unsafe_allow_html=True)
+st.markdown("<h2 class='sub-title'>Exclusive Food Content</h2>", unsafe_allow_html=True)
 
 # Description
 st.markdown(
-    "<p class='description'>Hungry for unique dishes? Follow us for some exclusive, mouth-watering food content! "
+    "<p class='description'>To Join this exclusive Club, you need to fill in the form below and if accepted you'll be honored to be a member of the TBC and enjoy foos content never seen before. DROP US A FOLLOW AND IF YOU GET ACCEPTED THEN YOU'RE IN!"
     "We're just getting started. Stay connected for more!</p>",
     unsafe_allow_html=True
 )
@@ -147,7 +147,7 @@ st.markdown(
     """
     <style>
     .footer {
-        color: #007BFF;
+        color: #f7c377;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 18px;
