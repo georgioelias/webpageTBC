@@ -72,7 +72,7 @@ st.markdown(
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 1000px; /* Adjust width if needed */
+        width: 300px; /* Adjust width if needed */
     }
     @media only screen and (max-width: 600px) {
         .main-title {
@@ -90,7 +90,7 @@ st.markdown(
 )
 
 # Add the Logo
-st.markdown("<div style='text-align: center;'><img src='https://raw.githubusercontent.com/georgioelias/webpageTBC/master/logo.png' width='150' /></div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center;'><img src='https://raw.githubusercontent.com/georgioelias/webpageTBC/master/logo.png' width='300' /></div>", unsafe_allow_html=True)
 
 # Header
 st.markdown("<h1 class='main-title'>The Bite Club (TBC)</h1>", unsafe_allow_html=True)
@@ -98,8 +98,8 @@ st.markdown("<h2 class='sub-title'>Exclusive Food Content</h2>", unsafe_allow_ht
 
 # Description
 st.markdown(
-    "<p class='description'>To Join this exclusive Club, you need to fill in the form below and if accepted you'll be honored to be a member of the TBC and enjoy food content never seen before.\n"
-    "DROP US A FOLLOW AND IF YOU GET ACCEPTED THEN YOU'RE IN!</p>",
+   "<p class='description'>To Join this exclusive Club, you need to fill in the form below and if accepted you'll be honored to be a member of the TBC and enjoy food content never seen before.</p>"
+    "<p class='description' style='font-weight: bold;'>DROP US A FOLLOW AND IF YOU GET ACCEPTED THEN YOU'RE IN!</p>",
     unsafe_allow_html=True
 )
 
