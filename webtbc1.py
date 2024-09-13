@@ -41,12 +41,12 @@ st.markdown(
         margin-bottom: 20px;
     }
     .description {
-        color: #000000;
+        color: #ffffff;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 16px;
         margin-bottom: 20px;
-        background-color: #ffffff;
+        background-color: #f7c377;
         padding: 10px;
         border-radius: 5px;
     }
