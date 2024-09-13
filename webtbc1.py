@@ -98,8 +98,8 @@ st.markdown("<h2 class='sub-title'>Exclusive Food Content</h2>", unsafe_allow_ht
 
 # Description
 st.markdown(
-   "<p class='description'>To Join this exclusive Club, you need to fill in the form below and if accepted you'll be honored to be a member of the TBC and enjoy food content never seen before.</p>"
-    "<p class='description' style='font-weight: bold;'>DROP US A FOLLOW AND IF YOU GET ACCEPTED THEN YOU'RE IN!</p>",
+   "<p class='description'>To Join this exclusive Club, just fill in the form below, and if you’re accepted, you’ll be honored as a TBC member, unlocking food content like never before!</p>"
+    "<p class='description' style='font-weight: bold;'>DROP US A FOLLOW, AND IF YOU GET ACCEPTED, YOU'RE IN!</p>",
     unsafe_allow_html=True
 )
 
