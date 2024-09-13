@@ -72,7 +72,7 @@ st.markdown(
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 150px; /* Adjust width if needed */
+        width: 300px; /* Adjust width if needed */
     }
     @media only screen and (max-width: 600px) {
         .main-title {
@@ -98,8 +98,8 @@ st.markdown("<h2 class='sub-title'>Exclusive Food Content</h2>", unsafe_allow_ht
 
 # Description
 st.markdown(
-    "<p class='description'>To Join this exclusive Club, you need to fill in the form below and if accepted you'll be honored to be a member of the TBC and enjoy foos content never seen before. DROP US A FOLLOW AND IF YOU GET ACCEPTED THEN YOU'RE IN!"
-    "We're just getting started. Stay connected for more!</p>",
+    "<p class='description'>To Join this exclusive Club, you need to fill in the form below and if accepted you'll be honored to be a member of the TBC and enjoy foos content never seen before."
+    "DROP US A FOLLOW AND IF YOU GET ACCEPTED THEN YOU'RE IN!</p>",
     unsafe_allow_html=True
 )
 
